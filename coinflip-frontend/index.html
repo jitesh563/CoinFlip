@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    {% load static %}
+
+    <!-- Use Django's static tag to link the favicon -->
+    <link rel="icon" type="image/svg+xml" href="{% static 'vite.svg' %}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coinflip Game</title>
+    <!-- Link the compiled CSS file -->
+    <link rel="stylesheet" href="{% static 'assets/main-BWjNJ16S.css' %}">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Load the compiled JavaScript file -->
+    <script type="module" src="{% static 'assets/main-DGrjJ8SZ.js' %}"></script>
+  </body>
+</html>
